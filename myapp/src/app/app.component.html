@@ -1,0 +1,12 @@
+<h1>
+  <div class="container">
+
+    <!-- regular rating -->
+
+    <rating [(ngModel)]="starsCount" [float]="true" [required]="true" [titles]="['very bad', 'bad', 'good', 'very good', 'excellent']">></rating>
+
+    <input type="button" value="show output" (click)="showStars()">
+
+    <br/><br/>
+  </div>
+</h1>
